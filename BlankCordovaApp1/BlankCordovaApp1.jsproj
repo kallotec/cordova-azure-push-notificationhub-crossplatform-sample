@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Android">
+      <Configuration>Debug</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|iOS">
+      <Configuration>Debug</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows-AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows-AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows-x64">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows-x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows-x86">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows-x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows-ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows-ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows Phone">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows Phone</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Android">
+      <Configuration>Release</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|iOS">
+      <Configuration>Release</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows-AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>Windows-AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows-x64">
+      <Configuration>Release</Configuration>
+      <Platform>Windows-x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows-x86">
+      <Configuration>Release</Configuration>
+      <Platform>Windows-x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows-ARM">
+      <Configuration>Release</Configuration>
+      <Platform>Windows-ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows Phone">
+      <Configuration>Release</Configuration>
+      <Platform>Windows Phone</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Android">
+      <Configuration>Distribution</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|iOS">
+      <Configuration>Distribution</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows-AnyCPU">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows-AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows-x64">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows-x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows-x86">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows-x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows-ARM">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows-ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows Phone">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows Phone</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>7986ec54-5c48-4975-8891-13e234d23ee9</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DefaultReferenceGroup>Implicit (Multi-Device Apps)</DefaultReferenceGroup>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0'">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\.fetch.json" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\Example\server\pushADM.js" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\Example\server\pushAPNS.rb" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\Example\server\pushGCM.rb" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\Example\www\beep.wav" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\Example\www\index.html" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\Example\www\jquery_1.5.2.min.js" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\Example\www\PushNotification.js" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\MIT-LICENSE" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\plugin.xml" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\README.md" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\spec\genericpush.tests.js" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\spec\html\HtmlReporter.js" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\spec\html\HtmlReporterHelpers.js" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\spec\html\ReporterView.js" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\spec\html\SpecView.js" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\spec\html\SuiteView.js" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\spec\html\TrivialReporter.js" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\spec\index.html" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\spec\jasmine.css" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\spec\jasmine.js" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\spec\test-runner.js" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\src\amazon\ADMHandlerActivity.java" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\src\amazon\ADMMessageHandler.java" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\src\amazon\PushPlugin.java" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\src\android\com\plugin\android-support-v13.jar" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\src\android\com\plugin\gcm\CordovaGCMBroadcastReceiver.java" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\src\android\com\plugin\gcm\GCMIntentService.java" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\src\android\com\plugin\gcm\PushHandlerActivity.java" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\src\android\com\plugin\gcm\PushPlugin.java" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\src\android\libs\gcm.jar" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\src\ios\AppDelegate+notification.h" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\src\ios\AppDelegate+notification.m" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\src\ios\PushPlugin.h" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\src\ios\PushPlugin.m" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\src\windows8\PushPluginProxy.js" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\src\wp8\Newtonsoft.Json.dll" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\src\wp8\PushPlugin.cs" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\www\blackberry10\PushPluginProxy.js" />
+    <Content Include="plugins\com.phonegap.plugins.PushPlugin\www\PushNotification.js" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\.fetch.json" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\LICENSE" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\plugin.xml" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\README.md" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\android\google-play-services.jar" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\android\notification-hubs-0.1.jar" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\android\NotificationHub.java" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\ios\NotificationHub.h" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\ios\NotificationHub.m" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\ios\WindowsAzureMessaging.framework\Headers\SBConnectionString.h" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\ios\WindowsAzureMessaging.framework\Headers\SBNotificationHub.h" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\ios\WindowsAzureMessaging.framework\Headers\WindowsAzureMessaging.h" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\ios\WindowsAzureMessaging.framework\License.rtf" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\ios\WindowsAzureMessaging.framework\Versions\A\Headers\SBConnectionString.h" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\ios\WindowsAzureMessaging.framework\Versions\A\Headers\SBNotificationHub.h" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\ios\WindowsAzureMessaging.framework\Versions\A\Headers\WindowsAzureMessaging.h" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\ios\WindowsAzureMessaging.framework\Versions\A\WindowsAzureMessaging" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\ios\WindowsAzureMessaging.framework\Versions\Current\Headers\SBConnectionString.h" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\ios\WindowsAzureMessaging.framework\Versions\Current\Headers\SBNotificationHub.h" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\ios\WindowsAzureMessaging.framework\Versions\Current\Headers\WindowsAzureMessaging.h" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\ios\WindowsAzureMessaging.framework\Versions\Current\WindowsAzureMessaging" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\ios\WindowsAzureMessaging.framework\WindowsAzureMessaging" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\windows8\Microsoft.WindowsAzure.Messaging.Managed.dll" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\windows8\NotificationHubProxy.js" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\windows8\NotificationHubRuntimeProxy.winmd" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\windows8\NotificationHubRuntimeProxy\HubApi.cs" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\windows8\NotificationHubRuntimeProxy\NotificationHubRuntimeProxy.csproj" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\windows8\NotificationHubRuntimeProxy\packages.config" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\windows8\NotificationHubRuntimeProxy\Properties\AssemblyInfo.cs" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\wp\Microsoft.WindowsAzure.Messaging.dll" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\src\wp\NotificationHub.cs" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\test\css\index.css" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\test\img\logo.png" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\test\index.html" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\test\js\index.js" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\www\NotificationHub.js" />
+    <Content Include="plugins\msopentech.azure.NotificationHub\www\Promise.js" />
+    <Content Include="plugins\org.apache.cordova.device\.fetch.json" />
+    <Content Include="plugins\org.apache.cordova.device\CONTRIBUTING.md" />
+    <Content Include="plugins\org.apache.cordova.device\doc\de\index.md" />
+    <Content Include="plugins\org.apache.cordova.device\doc\es\index.md" />
+    <Content Include="plugins\org.apache.cordova.device\doc\fr\index.md" />
+    <Content Include="plugins\org.apache.cordova.device\doc\index.md" />
+    <Content Include="plugins\org.apache.cordova.device\doc\it\index.md" />
+    <Content Include="plugins\org.apache.cordova.device\doc\ja\index.md" />
+    <Content Include="plugins\org.apache.cordova.device\doc\ko\index.md" />
+    <Content Include="plugins\org.apache.cordova.device\doc\pl\index.md" />
+    <Content Include="plugins\org.apache.cordova.device\doc\ru\index.md" />
+    <Content Include="plugins\org.apache.cordova.device\doc\zh\index.md" />
+    <Content Include="plugins\org.apache.cordova.device\LICENSE" />
+    <Content Include="plugins\org.apache.cordova.device\NOTICE" />
+    <Content Include="plugins\org.apache.cordova.device\package.json" />
+    <Content Include="plugins\org.apache.cordova.device\plugin.xml" />
+    <Content Include="plugins\org.apache.cordova.device\README.md" />
+    <Content Include="plugins\org.apache.cordova.device\RELEASENOTES.md" />
+    <Content Include="plugins\org.apache.cordova.device\src\android\Device.java" />
+    <Content Include="plugins\org.apache.cordova.device\src\blackberry10\index.js" />
+    <Content Include="plugins\org.apache.cordova.device\src\browser\DeviceProxy.js" />
+    <Content Include="plugins\org.apache.cordova.device\src\firefoxos\DeviceProxy.js" />
+    <Content Include="plugins\org.apache.cordova.device\src\ios\CDVDevice.h" />
+    <Content Include="plugins\org.apache.cordova.device\src\ios\CDVDevice.m" />
+    <Content Include="plugins\org.apache.cordova.device\src\tizen\DeviceProxy.js" />
+    <Content Include="plugins\org.apache.cordova.device\src\ubuntu\device.cpp" />
+    <Content Include="plugins\org.apache.cordova.device\src\ubuntu\device.h" />
+    <Content Include="plugins\org.apache.cordova.device\src\ubuntu\device.js" />
+    <Content Include="plugins\org.apache.cordova.device\src\windows8\DeviceProxy.js" />
+    <Content Include="plugins\org.apache.cordova.device\src\windows\DeviceProxy.js" />
+    <Content Include="plugins\org.apache.cordova.device\src\wp\Device.cs" />
+    <Content Include="plugins\org.apache.cordova.device\tests\plugin.xml" />
+    <Content Include="plugins\org.apache.cordova.device\tests\tests.js" />
+    <Content Include="plugins\org.apache.cordova.device\www\device.js" />
+    <Content Include="scripts\index.js" />
+    <Content Include="scripts\jquery_1.5.2.min.js" />
+    <Content Include="scripts\Pushman.js" />
+    <Folder Include="images\" />
+    <Content Include="merges\android\scripts\android2.3-jscompat.js" />
+    <Content Include="merges\android\scripts\platformOverrides.js" />
+    <Folder Include="merges\ios\" />
+    <Content Include="merges\windows8\scripts\platformOverrides.js" />
+    <Content Include="merges\windows8\scripts\winstore-jscompat.js" />
+    <Folder Include="merges\wp8\" />
+    <Folder Include="helpers\" />
+    <Folder Include="res\icons\android\" />
+    <Folder Include="res\icons\ios\" />
+    <Folder Include="res\icons\wp8\" />
+    <Folder Include="res\icons\windows8\" />
+    <Folder Include="res\screens\android\" />
+    <Folder Include="res\screens\ios\" />
+    <Folder Include="res\screens\windows8\" />
+    <Folder Include="res\screens\wp8\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="index.html" />
+    <Content Include="scripts\platformOverrides.js" />
+    <Content Include="css\index.css" />
+    <Content Include="res\cert\android\ant.properties" />
+    <Content Include="res\icons\android\icon-36-ldpi.png" />
+    <Content Include="res\icons\android\icon-48-mdpi.png" />
+    <Content Include="res\icons\android\icon-72-hdpi.png" />
+    <Content Include="res\icons\android\icon-96-xhdpi.png" />
+    <Content Include="res\icons\ios\icon-40.png" />
+    <Content Include="res\icons\ios\icon-40-2x.png" />
+    <Content Include="res\icons\ios\icon-50.png" />
+    <Content Include="res\icons\ios\icon-50-2x.png" />
+    <Content Include="res\icons\ios\icon-57.png" />
+    <Content Include="res\icons\ios\icon-57-2x.png" />
+    <Content Include="res\icons\ios\icon-60.png" />
+    <Content Include="res\icons\ios\icon-60-2x.png" />
+    <Content Include="res\icons\ios\icon-72.png" />
+    <Content Include="res\icons\ios\icon-72-2x.png" />
+    <Content Include="res\icons\ios\icon-76.png" />
+    <Content Include="res\icons\ios\icon-76-2x.png" />
+    <Content Include="res\icons\ios\icon-small.png" />
+    <Content Include="res\icons\ios\icon-small-2x.png" />
+    <Content Include="res\icons\windows8\logo.png" />
+    <Content Include="res\icons\windows8\smalllogo.png" />
+    <Content Include="res\icons\windows8\storelogo.png" />
+    <Content Include="res\icons\wp8\icon-62-tile.png" />
+    <Content Include="res\icons\wp8\icon-173-tile.png" />
+    <Content Include="res\screens\android\screen-hdpi-landscape.png" />
+    <Content Include="res\screens\android\screen-hdpi-portrait.png" />
+    <Content Include="res\screens\android\screen-ldpi-landscape.png" />
+    <Content Include="res\screens\android\screen-ldpi-portrait.png" />
+    <Content Include="res\screens\android\screen-mdpi-landscape.png" />
+    <Content Include="res\screens\android\screen-mdpi-portrait.png" />
+    <Content Include="res\screens\android\screen-xhdpi-landscape.png" />
+    <Content Include="res\screens\android\screen-xhdpi-portrait.png" />
+    <Content Include="res\screens\ios\screen-ipad-landscape.png" />
+    <Content Include="res\screens\ios\screen-ipad-landscape-2x.png" />
+    <Content Include="res\screens\ios\screen-ipad-portrait.png" />
+    <Content Include="res\screens\ios\screen-ipad-portrait-2x.png" />
+    <Content Include="res\screens\ios\screen-iphone-568h-2x.png" />
+    <Content Include="res\screens\ios\screen-iphone-portrait.png" />
+    <Content Include="res\screens\ios\screen-iphone-portrait-2x.png" />
+    <Content Include="res\screens\windows8\splashscreen.png" />
+    <Content Include="res\screens\wp8\screen-portrait.jpg" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TypeScriptToolsVersion>1.0</TypeScriptToolsVersion>
+    <DefaultReferenceGroup>Implicit (Multi-Device Apps)</DefaultReferenceGroup>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptCompileOnSaveEnabled>false</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptCompileOnSaveEnabled>false</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Distribution'">
+    <TypeScriptCompileOnSaveEnabled>false</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(AppData)\npm\node_modules\vs-mda-targets\Microsoft.MDA.targets" />
+  <Import Project="$(AppData)\npm\node_modules\vs-mda-targets\Microsoft.TypeScript.MDA.targets" />
+  <PropertyGroup>
+    <ProjectUISubcaption>Multi-Device Hybrid App</ProjectUISubcaption>
+  </PropertyGroup>
+  <Target Name="EnsureBuildPrerequisites">
+    <!-- These errors will trigger if building from inside Visual Studio and requirements could not be determined -->
+    <Error Condition="$(MDAPropertiesEvaluated) == 'true' And $(NodeJsDir) == ''" Text="Path to NodeJs could not be determined. Please check that NodeJs has been installed." />
+    <Error Condition="$(MDAPropertiesEvaluated) == 'true' And $(MDAVsixDir) == ''" Text="Path to the Visual Studio Extension for Multi-Device Hybrid Apps could not be determined. Please check that the extension has been installed." />
+    <!-- These errors will trigger if building from outside Visual Studio (e.g. command line) and environment variables have not been set -->
+    <Error Condition="$(MDAPropertiesEvaluated) == '' And $(NodeJsDir) == ''" Text="Path to NodeJs has not been specified. Please check that NodeJs has been installed and set the NodeJsDir environment variable before building." />
+    <Error Condition="$(MDAPropertiesEvaluated) == '' And $(MDAVsixDir) == ''" Text="Path to Visual Studio Extension for Multi-Device Hybrid Apps has not been specified. Please install it and set the MDAVsixDir environment variable before building." />
+    <!-- Sanity check that things exist in the specified places. These are more likely to fail if building outside Visual Studio and the required environment variables have not been set, or set incorrectly. -->
+    <Error Condition="!Exists('$(NodeJsDir)') Or !Exists('$(NodeJsDir)\node.exe')" Text="The specified NodeJs directory $(NodeJsDir) either does not exist, or does not contain node.exe. Please check that NodeJs has been installed, and set the NodeJsDir variable to the correct directory." />
+    <Error Condition="!Exists('$(MDAVsixDir)') Or !Exists('$(MDAVsixDir)\packages\vs-mda')" Text="The specified directory to the Visual Studio extension $(MDAVsixDir)\node.exe either does not exist, or does not contain a packages\vs-mda sub-directory. Please check that the extension directory exists and set the MDAVsixDir variable to the correct directory." />
+    <!-- Installs (if necessary) the supporting Nodejs module -->
+    <Exec Command="&quot;$(MDAVsixDir)&quot;\packages\vs-mda\install &quot;$(NodeJsDir)&quot; &quot;$(MDAVsixDir)&quot;\packages\vs-mda" />
+  </Target>
+</Project>
